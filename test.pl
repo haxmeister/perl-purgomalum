@@ -15,7 +15,7 @@ print $api->contains_profanity(
 print $api->get(
     text => "what the heck dude?", #required
     add => "heck",             #optional
-    fill_text => "really long replacement text", #optional
+    fill_text => "[explicit]", #optional
     fill_char => '-',          #optional
 )."\n";
 
