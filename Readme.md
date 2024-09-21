@@ -3,7 +3,7 @@
 Webservice::Purgomalum::API - Filter and removes profanity and unwanted text from input using PurgoMalum.com's free API
 
 # SYNOPSIS
-
+```perl
     use Webservice::Purgomalum::API;
 
     my $api = Webservice::Purgomalum::API->new();
@@ -25,7 +25,7 @@ Webservice::Purgomalum::API - Filter and removes profanity and unwanted text fro
         text => "what the heck dude?",
         add => "heck",
     )."\n";
-
+```
 # DESCRIPTION
 
 This module provides an object oriented interface to the PurgoMalum free API endpoint provided by [https://Purgomalum.com/](https://Purgomalum.com/).
